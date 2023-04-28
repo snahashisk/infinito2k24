@@ -16,7 +16,7 @@ const Navbar = () => {
 
   const navbarClasses = `fixed font-sans z-10 w-full flex justify-around items-center bg-black bg-opacity-${
     scrollY > 0 ? "75" : "50"
-  } hover:bg-opacity-${scrollY > 0 ? "100" : "50"} duration-150 ${
+  } hover:bg-opacity-${scrollY > 0 ? "100" : "75"} duration-150 ${
     scrollY > 0 ? "py-4" : "py-8"
   }`;
   return (
