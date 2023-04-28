@@ -1,6 +1,37 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import teamImage from "../images/image-2.jpg";
+import { BiRightArrowAlt } from "react-icons/bi";
+
 const About = () => {
+  const targetDate = "2023-05-20T12:00:00";
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  });
+
+  function calculateTimeLeft() {
+    const difference = +new Date(targetDate) - +new Date();
+    let timeLeft = {};
+
+    if (difference > 0) {
+      timeLeft = {
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((difference / 1000 / 60) % 60),
+        seconds: Math.floor((difference / 1000) % 60),
+      };
+    }
+
+    return timeLeft;
+  }
+
+  const { days, hours, minutes, seconds } = timeLeft;
+
   return (
     <div className="h-screen w-full bg-black text-white px-20 pt-24 font-sans">
       <div className="flex gap-4 pt-16 justify-between">
@@ -17,12 +48,13 @@ const About = () => {
             nesciunt doloremque, aliquam id incidunt nobis quidem fugiat totam
             maxime, distinctio, est qui.
           </p>
-          <button className="px-4 py-2 bg-fuchsia-400 rounded-full text-xl flex items-center justify-center">
+          <button className="px-4 py-2 bg-gradient-to-r from-indigo-700 to-fuchsia-700 rounded-full text-xl flex items-center justify-center">
             Interested
+            <BiRightArrowAlt className="text-2xl" />
           </button>
         </div>
         <div className="flex items-center justify-center">
-          <img src={teamImage} alt="party image" className="rounded-lg w-4/5" />
+          <img src={teamImage} alt="some memory" className="rounded-lg w-4/5" />
         </div>
       </div>
       <div className="flex justify-between pt-12 items-center">
@@ -33,25 +65,33 @@ const About = () => {
           </p>
         </div>
         <div className="flex gap-4 w-2/4 justify-around">
-          <div className="text-center">
-            <p className="text-6xl font-bold tracking-wide text-gray-100">00</p>
-            <p className="text-xl text-gray-200">Months</p>
+          <div className="text-center border-2 p-4 rounded-md border-gray-500">
+            <p className="text-6xl font-bold tracking-wide text-gray-300">00</p>
+            <p className="text-xl text-gray-400">Months</p>
           </div>
-          <div className="text-center">
-            <p className="text-6xl font-bold tracking-wide text-gray-200">20</p>
-            <p className="text-xl text-gray-200">Days</p>
+          <div className="text-center border-2 p-4 rounded-md border-gray-500">
+            <p className="text-6xl font-bold tracking-wide text-gray-300">
+              {days}
+            </p>
+            <p className="text-xl text-gray-400">Days</p>
           </div>
-          <div className="text-center">
-            <p className="text-6xl font-bold tracking-wide text-gray-300">14</p>
-            <p className="text-xl text-gray-200">Hours</p>
+          <div className="text-center border-2 p-4 rounded-md border-gray-500">
+            <p className="text-6xl font-bold tracking-wide text-gray-300">
+              {hours}
+            </p>
+            <p className="text-xl text-gray-400">Hours</p>
           </div>
-          <div className="text-center">
-            <p className="text-6xl font-bold tracking-wide text-gray-400">22</p>
-            <p className="text-xl text-gray-200">Minutes</p>
+          <div className="text-center border-2 p-4 rounded-md border-gray-500">
+            <p className="text-6xl font-bold tracking-wide text-gray-300">
+              {minutes}
+            </p>
+            <p className="text-xl text-gray-400">Minutes</p>
           </div>
-          <div className="text-center">
-            <p className="text-6xl font-bold tracking-wide text-gray-500">14</p>
-            <p className="text-xl text-gray-200">Seconds</p>
+          <div className="text-center border-2 p-4 rounded-md border-gray-500">
+            <p className="text-6xl font-bold tracking-wide text-gray-300">
+              {seconds}
+            </p>
+            <p className="text-xl text-gray-400">Seconds</p>
           </div>
         </div>
       </div>

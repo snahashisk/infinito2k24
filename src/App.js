@@ -1,5 +1,5 @@
 import "./App.css";
-import { Home, About } from "./pages";
+import { Home, About, Speaker, Event } from "./pages";
 import Navbar from "./components/Navbar";
 function App() {
   return (
@@ -7,6 +7,8 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Speaker />
+      <Event />
     </>
   );
 }
