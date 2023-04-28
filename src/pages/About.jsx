@@ -25,31 +25,33 @@ const About = () => {
           <img src={teamImage} alt="party image" className="rounded-lg w-4/5" />
         </div>
       </div>
-      <div className="flex justify-between pt-12">
+      <div className="flex justify-between pt-12 items-center">
         <div>
-          <h3>TECHFEST DATE</h3>
-          <p>COUNT EVERY SECOND UNTIL THE EVENT</p>
+          <h3 className="text-fuchsia-600 pb-2">TECHFEST DATE</h3>
+          <p className="text-3xl font-semibold w-2/3">
+            COUNT EVERY SECOND UNTIL THE EVENT
+          </p>
         </div>
         <div className="flex gap-4 w-2/4 justify-around">
           <div className="text-center">
-            <p className="text-6xl font-bold">00</p>
-            <p className="text-xl text-gray-400">Months</p>
+            <p className="text-6xl font-bold tracking-wide text-gray-100">00</p>
+            <p className="text-xl text-gray-200">Months</p>
           </div>
           <div className="text-center">
-            <p className="text-6xl font-bold">00</p>
-            <p className="text-xl text-gray-400">Days</p>
+            <p className="text-6xl font-bold tracking-wide text-gray-200">20</p>
+            <p className="text-xl text-gray-200">Days</p>
           </div>
           <div className="text-center">
-            <p className="text-6xl font-bold">00</p>
-            <p className="text-xl text-gray-400">Hours</p>
+            <p className="text-6xl font-bold tracking-wide text-gray-300">14</p>
+            <p className="text-xl text-gray-200">Hours</p>
           </div>
           <div className="text-center">
-            <p className="text-6xl font-bold">00</p>
-            <p className="text-xl text-gray-400">Minutes</p>
+            <p className="text-6xl font-bold tracking-wide text-gray-400">22</p>
+            <p className="text-xl text-gray-200">Minutes</p>
           </div>
           <div className="text-center">
-            <p className="text-6xl font-bold">00</p>
-            <p className="text-xl text-gray-400">Seconds</p>
+            <p className="text-6xl font-bold tracking-wide text-gray-500">14</p>
+            <p className="text-xl text-gray-200">Seconds</p>
           </div>
         </div>
       </div>
