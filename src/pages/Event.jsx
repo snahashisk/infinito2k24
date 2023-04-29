@@ -56,7 +56,7 @@ const Event = () => {
             <div className="flex h-6 gap-4 items-center">
               <p className="bg-green-600 w-min px-4 rounded-full">FREE</p>
               <p className="bg-purple-600 px-4 rounded-full">
-                Only For DIT Students
+                DIT Students Only
               </p>
             </div>
             <p className="text-2xl font-bold">BGMI Contest</p>
@@ -81,7 +81,7 @@ const Event = () => {
             <div className="flex h-6 gap-4 items-center">
               <p className="bg-green-600 w-min px-4 rounded-full">FREE</p>
               <p className="bg-purple-600 px-4 rounded-full">
-                Only For DIT Students
+                DIT Students Only
               </p>
             </div>
             <p className="text-2xl font-bold">Machine Learning Seminar</p>
@@ -107,7 +107,7 @@ const Event = () => {
             <div className="flex h-6 gap-4 items-center">
               <p className="bg-green-600 w-min px-4 rounded-full">FREE</p>
               <p className="bg-purple-600 px-4 rounded-full">
-                Only For DIT Students
+                DIT Students Only
               </p>
             </div>
             <p className="text-2xl font-bold">3D Printing Seminar</p>
@@ -134,7 +134,7 @@ const Event = () => {
             <div className="flex h-6 gap-4 items-center">
               <p className="bg-green-600 w-min px-4 rounded-full">FREE</p>
               <p className="bg-purple-600 px-4 rounded-full">
-                Only For DIT Students
+                DIT Students Only
               </p>
             </div>
             <p className="text-2xl font-bold">HackHive Coding Contest</p>
@@ -160,7 +160,7 @@ const Event = () => {
             <div className="flex h-6 gap-4 items-center">
               <p className="bg-green-600 w-min px-4 rounded-full">FREE</p>
               <p className="bg-purple-600 px-4 rounded-full">
-                Only For DIT Students
+                DIT Students Only
               </p>
             </div>
             <p className="text-2xl font-bold">Photography Contest</p>
