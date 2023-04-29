@@ -6,7 +6,7 @@ import { BiRightArrowAlt } from "react-icons/bi";
 
 const About = () => {
   AOS.init();
-  const targetDate = "2023-05-20T12:00:00";
+  const targetDate = "2023-05-19T10:00:00";
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
@@ -77,7 +77,7 @@ const About = () => {
             COUNT EVERY SECOND UNTIL THE EVENT
           </p>
         </div>
-        <div className="flex lg:gap-4 md:gap-4 gap-2 lg:w-2/4 lg:justify-around justify-center">
+        <div className="flex lg:gap-4 md:gap-4 gap-1 lg:w-2/4 lg:justify-around justify-center">
           <div className="text-center border-2 lg:p-4 p-2 rounded-md border-gray-500">
             <p className="lg:text-6xl md:text-6xl text-4xl font-bold tracking-wide text-gray-300">
               00
@@ -86,25 +86,25 @@ const About = () => {
           </div>
           <div className="text-center border-2 lg:p-4 p-2 rounded-md border-gray-500">
             <p className="lg:text-6xl md:text-6xl text-4xl font-bold tracking-wide text-gray-300">
-              00
+              {days}
             </p>
             <p className="lg:text-xl md:text-xl text-gray-400">Days</p>
           </div>
           <div className="text-center border-2 lg:p-4 p-2 rounded-md border-gray-500">
             <p className="lg:text-6xl md:text-6xl text-4xl font-bold tracking-wide text-gray-300">
-              00
+              {hours}
             </p>
             <p className="lg:text-xl md:text-xl text-gray-400">Hours</p>
           </div>
           <div className="text-center border-2 lg:p-4 p-2 rounded-md border-gray-500">
             <p className="lg:text-6xl md:text-6xl text-4xl font-bold tracking-wide text-gray-300">
-              00
+              {minutes}
             </p>
             <p className="lg:text-xl md:text-xl text-gray-400">Minutes</p>
           </div>
           <div className="text-center border-2 lg:p-4 p-2 rounded-md border-gray-500">
             <p className="lg:text-6xl md:text-6xl text-4xl font-bold tracking-wide text-gray-300">
-              00
+              {seconds}
             </p>
             <p className="lg:text-xl md:text-xl text-gray-400">Seconds</p>
           </div>

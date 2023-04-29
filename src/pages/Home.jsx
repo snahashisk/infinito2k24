@@ -31,7 +31,7 @@ const Home = () => {
         </div>
         <div className="text-white w-full pt flex flex-col lg:justify-end lg:items-end lg:pr-16 gap-2">
           <h1 className="text-fuchsia-400 lg:text-5xl text-3xl font-semibold">
-            TO BE ANNOUNCED
+            19th & 20th May 2023
           </h1>
           <p className="text-lg">
             Thakurpukur, Samali, B.H Road Kolkata : 700104
