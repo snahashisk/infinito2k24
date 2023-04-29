@@ -35,10 +35,12 @@ const Sponsor = () => {
       <div className="flex justify-around">
         <div className="w-2/5 bg-slate-900 rounded-lg p-8">
           <p className=" text-gray-200">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            quibusdam iste reprehenderit beatae fuga voluptatum, omnis eum. Nam
-            dolores provident, officia tempore quas quod, porro laudantium
-            molestiae, at explicabo quisquam!
+            Dream Institute of Technology is a leading engineering institute in
+            India, providing well-equipped labs and advanced learning resources
+            to equip students for future challenges in various fields. They aim
+            to create an ideal environment for students to optimize their
+            potentials and develop a symbiotic relationship between the
+            community, society, and the institution.
           </p>
           <div className="pt-6 flex gap-4">
             <img src={cust1} alt="customer" className="w-16 rounded-full" />
@@ -52,10 +54,13 @@ const Sponsor = () => {
         </div>
         <div className="w-2/5 bg-slate-900 rounded-lg p-8 ">
           <p className=" text-gray-200">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            quibusdam iste reprehenderit beatae fuga voluptatum, omnis eum. Nam
-            dolores provident, officia tempore quas quod, porro laudantium
-            molestiae, at explicabo quisquam!
+            Dream Institute of Technology provides skill-based industry-driven
+            knowledge, encouraging collaboration, active learning, and effective
+            learning skills. Discipline is maintained on a priority basis within
+            the college campus, while students are encouraged to attend
+            regularly and build the habit of attending workplaces punctually.
+            The institution aims to fuel the intellectual energies of all its
+            students with the support of dedicated faculty members.
           </p>
           <div className="pt-6 flex gap-4">
             <img src={cust2} alt="customer" className="w-16 rounded-full" />
