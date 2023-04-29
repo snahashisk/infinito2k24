@@ -3,6 +3,13 @@ import mainImgae from "../images/image-1.jpg";
 import { BiRightArrowAlt } from "react-icons/bi";
 
 const Home = () => {
+  const scrollToAbout = () => {
+    window.scrollTo({
+      top: window.innerHeight,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <section className="w-full lg:h-screen relative font-sans bg-black lg:bg-opacity-30 md:bg-opacity-30 md:pb-8 pt-24">
       <img
@@ -18,11 +25,16 @@ const Home = () => {
           <h1 className="text-white lg:text-5xl md:text-5xl text-4xl font-semibold">
             THE BEST IN CULTURAL AND TECHFEST IN KOLKATA
           </h1>
-          <p className="text-gray-200 py-8 w-3/4 leading-7 md:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            aperiam accusamus, dolorem optio dolor doloribus? Quibusdam
-            molestiae quo sint dolores illo possimus, facere quis minus
-            provident harum at mollitia ab atque minima aspernatur nesciunt!
+          <p className="text-gray-200 py-8 lg:w-3/4 leading-7 md:text-xl">
+            We are excited to showcase our annual cultural and technical
+            extravaganza, which is one of the most awaited events of the year.
+            The fest is a melting pot of talent, creativity, and innovation,
+            bringing together students from various backgrounds and fields of
+            study. At Fest, we strive to provide a fun-filled and engaging
+            experience for all participants, sponsors, and attendees. Our team
+            of dedicated volunteers and organizers have been working tirelessly
+            to bring you a spectacular event that you will cherish for years to
+            come.
           </p>
           <button className="md:text-2xl md:font-bold bg-yellow-400 text-black py-2 px-6 rounded-full font-medium hover:scale-110 duration-150 flex items-center gap-1 hover:shadow-lg">
             EXPLORE MORE

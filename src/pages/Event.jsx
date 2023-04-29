@@ -30,10 +30,11 @@ const Event = () => {
             </div>
             <p className="text-2xl font-bold">Photography Contest</p>
             <p className="text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos illum iste veniam mollitia vero obcaecati officiis
-              eligendi fugiat est, iure reiciendis temporibus rerum tenetur
-              laudantium debitis voluptate id suscipit hic!
+              Hey there! Are you passionate about mobile photography? If yes,
+              then we've got the perfect opportunity for you! Join the
+              FlashFiesta Mobile Photography Contest and showcase your talent to
+              the world. Simply capture stunning shots using your smartphone's
+              flash and stand a chance to win big.
             </p>
             <button
               className="bg-yellow-400 text-black mt-4 py-2 rounded-md"
@@ -60,10 +61,10 @@ const Event = () => {
             </div>
             <p className="text-2xl font-bold">BGMI Contest</p>
             <p className="text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos illum iste veniam mollitia vero obcaecati officiis
-              eligendi fugiat est, iure reiciendis temporibus rerum tenetur
-              laudantium debitis voluptate id suscipit hic!
+              Join the ultimate gaming battle with BGMI Mobile Gaming Contest!
+              Compete with players from all over and prove your skills in the
+              virtual battlegrounds. Win big prizes, fame, and glory! Don't
+              wait, register now and show the world what you're made of.
             </p>
             <button className="bg-yellow-400 text-black mt-4 py-2 rounded-md">
               Register here
@@ -85,10 +86,11 @@ const Event = () => {
             </div>
             <p className="text-2xl font-bold">Machine Learning Seminar</p>
             <p className="text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos illum iste veniam mollitia vero obcaecati officiis
-              eligendi fugiat est, iure reiciendis temporibus rerum tenetur
-              laudantium debitis voluptate id suscipit hic!
+              Unlock the power of Machine Learning with our seminar! Join us and
+              learn from the experts as we explore the latest trends, tools, and
+              techniques in ML. Discover how ML is transforming industries and
+              how you can leverage it for your business. Register now and take
+              the first step towards mastering ML.
             </p>
             <button className="bg-yellow-400 text-black mt-4 py-2 rounded-md">
               Register here
@@ -108,12 +110,14 @@ const Event = () => {
                 Only For DIT Students
               </p>
             </div>
-            <p className="text-2xl font-bold">3D Modeling Seminar</p>
+            <p className="text-2xl font-bold">3D Printing Seminar</p>
             <p className="text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos illum iste veniam mollitia vero obcaecati officiis
-              eligendi fugiat est, iure reiciendis temporibus rerum tenetur
-              laudantium debitis voluptate id suscipit hic!
+              Step into the world of 3D Printing with our Seminar! Join us and
+              discover the endless possibilities of this revolutionary
+              technology. Learn from the experts and explore the latest trends,
+              tools, and techniques in 3D Printing. Whether you're a beginner or
+              an expert, this seminar is for you! Register now and take the
+              first step towards unleashing your creativity with 3D Printing.
             </p>
             <button className="bg-yellow-400 text-black mt-4 py-2 rounded-md">
               Register here
@@ -135,10 +139,11 @@ const Event = () => {
             </div>
             <p className="text-2xl font-bold">HackHive Coding Contest</p>
             <p className="text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos illum iste veniam mollitia vero obcaecati officiis
-              eligendi fugiat est. Dignissimos illum iste veniam mollitia vero
-              obcaecati officiis eligendi fugiat est.
+              Calling all coders! Join the ultimate coding challenge with
+              HackHive! Compete with the best and showcase your coding skills to
+              the world. Solve real-world problems, win big prizes, and gain
+              recognition. Don't wait, register now and show us what you're made
+              of.
             </p>
             <button className="bg-yellow-400 text-black mt-4 py-2 rounded-md">
               Register here

@@ -45,11 +45,12 @@ const About = () => {
           <h1 className="lg:text-5xl text-3xl font-bold tracking-wide md:text-5xl">
             WELCOME TO THE LARGEST TECHFEST
           </h1>
-          <p className="w-3/4 leading-8 md:text-xl">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
-            nostrum laudantium ipsa excepturi repudiandae ea pariatur? Voluptas
-            nesciunt doloremque, aliquam id incidunt nobis quidem fugiat totam
-            maxime, distinctio, est qui.
+          <p className="lg:w-3/4 w-4/5 leading-8 md:text-xl">
+            Our fest aims to provide a platform for young minds to showcase
+            their skills and foster a spirit of healthy competition. With a
+            plethora of events, ranging from dance, music, fashion, and drama to
+            technical events like coding, robotics, and gaming, there is
+            something for everyone.
           </p>
           <button className="px-4 py-2 bg-gradient-to-r from-indigo-700 to-fuchsia-700 rounded-full text-xl flex items-center justify-center md:text-2xl">
             Interested
