@@ -24,7 +24,7 @@ const Sponsor = () => {
           OFFICIAL SPONSOR
         </p>
       </div>
-      <div className="w-full h-3/4 grid lg:grid-cols-5 lg:grid-rows-2 grid-cols-2 grid-rows-5 items-center justify-center pb-12">
+      <div className="w-full h-3/4 grid lg:grid-cols-5 lg:grid-rows-2 grid-cols-3 grid-rows-3 items-center justify-center md:pl-12 pb-12">
         <img
           src={company1}
           alt="Our Sponsors"
@@ -91,7 +91,7 @@ const Sponsor = () => {
           className="lg:w-2/5 bg-slate-900 rounded-lg p-8 lg:mb-0 mb-4"
           data-aos="fade-up"
         >
-          <p className=" text-gray-200">
+          <p className=" text-gray-200 md:text-xl">
             Dream Institute of Technology is a leading engineering institute in
             India, providing well-equipped labs and advanced learning resources
             to equip students for future challenges in various fields. They aim
@@ -99,13 +99,17 @@ const Sponsor = () => {
             potentials and develop a symbiotic relationship between the
             community, society, and the institution.
           </p>
-          <div className="pt-6 flex gap-4">
-            <img src={cust1} alt="customer" className="w-16 rounded-full" />
+          <div className="pt-6 flex gap-4 items-center">
+            <img
+              src={cust1}
+              alt="customer"
+              className="w-16 rounded-full md:w-20"
+            />
             <div>
-              <p className="text-2xl font-bold text-gray-300">
+              <p className="text-2xl font-bold text-gray-300 md:text-3xl">
                 Dipankar Sarkar
               </p>
-              <p className="text-xl text-yellow-400">Principal</p>
+              <p className="text-xl text-yellow-400 md:text-2xl">Principal</p>
             </div>
           </div>
         </div>
@@ -113,7 +117,7 @@ const Sponsor = () => {
           className="lg:w-2/5 bg-slate-900 rounded-lg p-8"
           data-aos="fade-up"
         >
-          <p className=" text-gray-200">
+          <p className=" text-gray-200 md:text-xl">
             Dream Institute of Technology provides skill-based industry-driven
             knowledge, encouraging collaboration, active learning, and effective
             learning skills. Discipline is maintained on a priority basis within
@@ -122,11 +126,17 @@ const Sponsor = () => {
             The institution aims to fuel the intellectual energies of all its
             students with the support of dedicated faculty members.
           </p>
-          <div className="pt-6 flex gap-4">
-            <img src={cust2} alt="customer" className="w-16 rounded-full" />
+          <div className="pt-6 flex gap-4 items-center">
+            <img
+              src={cust2}
+              alt="customer"
+              className="w-16 md:w-20 rounded-full"
+            />
             <div>
-              <p className="text-2xl font-bold text-gray-300">Susmita Sarkar</p>
-              <p className="text-xl text-yellow-400">Chairperson</p>
+              <p className="text-2xl md:text-3xl font-bold text-gray-300">
+                Susmita Sarkar
+              </p>
+              <p className="text-xl md:text-2xl text-yellow-400">Chairperson</p>
             </div>
           </div>
         </div>

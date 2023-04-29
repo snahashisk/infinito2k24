@@ -10,16 +10,16 @@ import event5 from "../images/image-11.jpg";
 const Event = () => {
   AOS.init();
   return (
-    <div className="lg:min-h-screen w-full bg-black text-white lg:px-20 px-8 lg:pb-0 pb-8 pt-24 font-sans">
+    <div className="lg:min-h-screen w-full bg-black text-white lg:px-20 px-8 lg:pb-0 pb-8 lg:pt-24 pt-16 font-sans">
       <div className="text-center">
         <p className="text-xl py-4 text-fuchsia-400">OUR EVENTS</p>
         <h2 className="text-5xl font-bold tracking-wide pb-8">
           OFFLINE EVENTS
         </h2>
       </div>
-      <div className="lg:flex justify-around flex-wrap gap-4">
+      <div className="lg:flex md:flex justify-around flex-wrap lg:gap-4 gap-2">
         <div
-          className="lg:w-2/6 bg-slate-950 overflow-hidden"
+          className="lg:w-2/6 md:w-2/5 bg-slate-950 overflow-hidden"
           data-aos="fade-up"
         >
           <img src={event1} alt="event" />
@@ -47,7 +47,7 @@ const Event = () => {
         </div>
 
         <div
-          className="lg:w-2/6 bg-slate-950 overflow-hidden"
+          className="lg:w-2/6 md:w-2/5 bg-slate-950 overflow-hidden"
           data-aos="fade-up"
         >
           <img src={event2} alt="event" />
@@ -72,7 +72,7 @@ const Event = () => {
         </div>
 
         <div
-          className="lg:w-1/4 bg-slate-950 overflow-hidden"
+          className="lg:w-1/4 md:w-2/5 bg-slate-950 overflow-hidden"
           data-aos="fade-up"
         >
           <img src={event3} alt="event" />
@@ -97,7 +97,7 @@ const Event = () => {
         </div>
 
         <div
-          className="lg:w-1/4 bg-slate-950 overflow-hidden"
+          className="lg:w-1/4 md:w-2/5 bg-slate-950 overflow-hidden"
           data-aos="fade-up"
         >
           <img src={event4} alt="event" />
@@ -122,7 +122,7 @@ const Event = () => {
         </div>
 
         <div
-          className="lg:w-2/6 bg-slate-950 overflow-hidden"
+          className="lg:w-2/6 md:w-2/5 bg-slate-950 overflow-hidden"
           data-aos="fade-up"
         >
           <img src={event5} alt="event" />
@@ -147,7 +147,7 @@ const Event = () => {
         </div>
 
         <div
-          className="lg:w-2/6 bg-slate-950 overflow-hidden"
+          className="lg:w-2/6 md:w-2/5 bg-slate-950 overflow-hidden"
           data-aos="fade-up"
         >
           <img src={event3} alt="event" />

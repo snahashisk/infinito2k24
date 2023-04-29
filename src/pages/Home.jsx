@@ -4,7 +4,7 @@ import { BiRightArrowAlt } from "react-icons/bi";
 
 const Home = () => {
   return (
-    <section className="w-full lg:h-screen relative font-sans bg-black lg:bg-opacity-30 pt-24">
+    <section className="w-full lg:h-screen relative font-sans bg-black lg:bg-opacity-30 md:bg-opacity-30 md:pb-8 pt-24">
       <img
         src={mainImgae}
         alt="logo"
