@@ -67,10 +67,10 @@ const Navbar = () => {
     <nav className={navbarClasses}>
       <img
         src={festlogo}
-        className="h-16 cursor-pointer md:pl-8 pl-8"
+        className="h-16 cursor-pointer my-4 lg:my-0 md:pl-8 pl-8"
         onClick={scrollToTop}
       />
-      <div className="lg:visible collapse">
+      <div className="lg:visible collapse h-0 lg:h-min">
         <ul className="flex gap-8 text-gray-300 items-center">
           <li
             className="hover:border-b-2 border-yellow-300 hover:text-yellow-300 hover:scale-105 duration-100 cursor-pointer"
