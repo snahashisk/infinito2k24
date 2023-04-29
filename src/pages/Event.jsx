@@ -66,7 +66,12 @@ const Event = () => {
               virtual battlegrounds. Win big prizes, fame, and glory! Don't
               wait, register now and show the world what you're made of.
             </p>
-            <button className="bg-yellow-400 text-black mt-4 py-2 rounded-md">
+            <button
+              className="bg-yellow-400 text-black mt-4 py-2 rounded-md"
+              onClick={() =>
+                window.open("https://forms.gle/xxMx9XCBXDFY7fuv5", "_blank")
+              }
+            >
               Register here
             </button>
           </div>
