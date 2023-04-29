@@ -11,7 +11,7 @@ import { BiRightArrowAlt } from "react-icons/bi";
 const Speaker = () => {
   AOS.init();
   return (
-    <div className="lg:h-screen w-full bg-slate-950 text-white px-20 lg:pt-24 pt-16 font-sans flex flex-col item-center">
+    <div className="lg:h-screen w-full bg-slate-950 text-white lg:px-20 px-8 lg:pt-24 pt-16 font-sans flex flex-col item-center">
       <div className="text-center">
         <p className="text-xl py-4 text-fuchsia-400">OUR SPEAKINGS</p>
         <p className="text-5xl font-bold tracking-wide pb-8">WHO’S SPEAKING</p>

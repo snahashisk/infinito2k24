@@ -22,10 +22,10 @@ const Home = () => {
           <h1 className="lg:text-9xl md:text-9xl text-6xl w-1/2 font-extrabold py-6 text-yellow-400 text-shadow-lg font-cursive">
             INFINITO 2K23
           </h1>
-          <h1 className="text-white lg:text-5xl md:text-5xl text-4xl font-semibold">
+          <h1 className="text-white lg:text-5xl md:text-5xl text-4xl font-semibold lg:w-3/5">
             THE BEST IN CULTURAL AND TECHFEST IN KOLKATA
           </h1>
-          <p className="text-gray-200 py-8 lg:w-3/4 leading-7 md:text-xl">
+          <p className="text-gray-200 py-8 lg:w-3/4 leading-7 md:text-xl lg:text-base">
             We are excited to showcase our annual cultural and technical
             extravaganza, which is one of the most awaited events of the year.
             The fest is a melting pot of talent, creativity, and innovation,
@@ -36,7 +36,10 @@ const Home = () => {
             to bring you a spectacular event that you will cherish for years to
             come.
           </p>
-          <button className="md:text-2xl md:font-bold bg-yellow-400 text-black py-2 px-6 rounded-full font-medium hover:scale-110 duration-150 flex items-center gap-1 hover:shadow-lg">
+          <button
+            className="md:text-2xl md:font-bold bg-yellow-400 text-black py-2 px-6 rounded-full font-medium hover:scale-110 duration-150 flex items-center gap-1 hover:shadow-lg"
+            onClick={scrollToAbout}
+          >
             EXPLORE MORE
             <BiRightArrowAlt className="text-2xl" />
           </button>
