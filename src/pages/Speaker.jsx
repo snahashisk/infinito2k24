@@ -33,10 +33,10 @@ const Speaker = () => {
           image={annie}
         />
         <Card
-          name="Prajjwal Das"
-          designation="GENERAL SECRETARY"
+          name="Dipankar Sarkar"
+          designation="PRINCIPAL"
           place="@dit"
-          image={studnetCo}
+          image={princi}
         />
       </div>
       <div className="w-full flex items-center justify-center">

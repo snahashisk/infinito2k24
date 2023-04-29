@@ -29,7 +29,12 @@ const Event = () => {
               eligendi fugiat est, iure reiciendis temporibus rerum tenetur
               laudantium debitis voluptate id suscipit hic!
             </p>
-            <button className="bg-yellow-400 text-black mt-4 py-2 rounded-md">
+            <button
+              className="bg-yellow-400 text-black mt-4 py-2 rounded-md"
+              onClick={() =>
+                window.open("https://forms.gle/xDKUna9HhdM3qftb7", "_blank")
+              }
+            >
               Register here
             </button>
           </div>
