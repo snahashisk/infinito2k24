@@ -69,7 +69,7 @@ const Event = () => {
             <button
               className="bg-yellow-400 text-black mt-4 py-2 rounded-md"
               onClick={() =>
-                window.open("https://forms.gle/xxMx9XCBXDFY7fuv5", "_blank")
+                window.open("https://forms.gle/LeNZmkRkyWEcYrfh9", "_blank")
               }
             >
               Register here
@@ -97,7 +97,12 @@ const Event = () => {
               how you can leverage it for your business. Register now and take
               the first step towards mastering ML.
             </p>
-            <button className="bg-yellow-400 text-black mt-4 py-2 rounded-md">
+            <button
+              className="bg-yellow-400 text-black mt-4 py-2 rounded-md"
+              onClick={() =>
+                window.open("https://forms.gle/KGnTyY4th43HooeUA", "_blank")
+              }
+            >
               Register here
             </button>
           </div>
@@ -124,7 +129,12 @@ const Event = () => {
               an expert, this seminar is for you! Register now and take the
               first step towards unleashing your creativity with 3D Printing.
             </p>
-            <button className="bg-yellow-400 text-black mt-4 py-2 rounded-md">
+            <button
+              className="bg-yellow-400 text-black mt-4 py-2 rounded-md"
+              onClick={() =>
+                window.open("https://forms.gle/KFRxZPsaVzfCMZ538", "_blank")
+              }
+            >
               Register here
             </button>
           </div>
@@ -150,7 +160,12 @@ const Event = () => {
               recognition. Don't wait, register now and show us what you're made
               of.
             </p>
-            <button className="bg-yellow-400 text-black mt-4 py-2 rounded-md">
+            <button
+              className="bg-yellow-400 text-black mt-4 py-2 rounded-md"
+              onClick={() =>
+                window.open("https://forms.gle/xphLpCXn4NbosuNC8", "_blank")
+              }
+            >
               Register here
             </button>
           </div>
