@@ -40,7 +40,7 @@ const About = () => {
       <div className="lg:flex gap-4 pt-16 justify-between">
         <div className="flex flex-col gap-6 items-start" data-aos="fade-up">
           <p className="text-xl text-fuchsia-400 underline underline-offset-8 decoration-fuchsia-800">
-            ABOT INFINITO 2K23
+            ABOUT INFINITO 2K23
           </p>
           <h1 className="lg:text-5xl text-3xl font-bold tracking-wide md:text-5xl">
             WELCOME TO THE LARGEST TECHFEST
