@@ -12,19 +12,19 @@ const Home = () => {
       />
       <div className="lg:flex w-full px-6">
         <div className="lg:px-16 py-8">
-          <h1 className="lg:text-9xl md:text-8xl text-6xl w-1/2 font-extrabold py-6 text-yellow-400 text-shadow-lg font-cursive">
+          <h1 className="lg:text-9xl md:text-9xl text-6xl w-1/2 font-extrabold py-6 text-yellow-400 text-shadow-lg font-cursive">
             INFINITO 2K23
           </h1>
-          <h1 className="text-white lg:text-5xl text-4xl font-semibold">
+          <h1 className="text-white lg:text-5xl md:text-5x text-4xl font-semibold">
             THE BEST IN CULTURAL AND TECHFEST IN KOLKATA
           </h1>
-          <p className="text-gray-200 py-8 w-3/4 leading-7">
+          <p className="text-gray-200 py-8 w-3/4 leading-7 md:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             aperiam accusamus, dolorem optio dolor doloribus? Quibusdam
             molestiae quo sint dolores illo possimus, facere quis minus
             provident harum at mollitia ab atque minima aspernatur nesciunt!
           </p>
-          <button className="bg-yellow-400 text-black py-2 px-6 rounded-full font-medium hover:scale-110 duration-150 flex items-center gap-1 hover:shadow-lg">
+          <button className="md:text-2xl md:font-bold bg-yellow-400 text-black py-2 px-6 rounded-full font-medium hover:scale-110 duration-150 flex items-center gap-1 hover:shadow-lg">
             EXPLORE MORE
             <BiRightArrowAlt className="text-2xl" />
           </button>
