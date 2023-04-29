@@ -12,7 +12,7 @@ const Home = () => {
       />
       <div className="lg:flex w-full px-6">
         <div className="lg:px-16 py-8">
-          <h1 className="lg:text-9xl text-6xl w-1/2 font-extrabold py-6 text-yellow-400 text-shadow-lg font-cursive">
+          <h1 className="lg:text-9xl md:text-8xl text-6xl w-1/2 font-extrabold py-6 text-yellow-400 text-shadow-lg font-cursive">
             INFINITO 2K23
           </h1>
           <h1 className="text-white lg:text-5xl text-4xl font-semibold">
