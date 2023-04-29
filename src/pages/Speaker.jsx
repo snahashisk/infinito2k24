@@ -11,12 +11,15 @@ import { BiRightArrowAlt } from "react-icons/bi";
 const Speaker = () => {
   AOS.init();
   return (
-    <div className="lg:h-screen w-full bg-slate-950 text-white px-20 pt-24 font-sans flex flex-col item-center">
+    <div className="lg:h-screen w-full bg-slate-950 text-white px-20 lg:pt-24 pt-16 font-sans flex flex-col item-center">
       <div className="text-center">
         <p className="text-xl py-4 text-fuchsia-400">OUR SPEAKINGS</p>
         <p className="text-5xl font-bold tracking-wide pb-8">WHO’S SPEAKING</p>
       </div>
-      <div className="lg:flex lg:justify-around pb-16" data-aos="fade-up">
+      <div
+        className="lg:flex md:grid md:grid-cols-2 md:grid-rows-2 gap-16 lg:justify-around lg:pb-16 pb-8"
+        data-aos="fade-up"
+      >
         <Card
           name="Dipankar Sarkar"
           designation="PRINCIPAL"
@@ -43,7 +46,7 @@ const Speaker = () => {
         />
       </div>
       <div className="w-full flex items-center justify-center">
-        <button className="text-center py-2 px-6 border-2 rounded-full text-yellow-400 border-yellow-400 flex items-center gap-2 hover:text-gray-300 hover:border-gray-400 duration-100 ">
+        <button className="text-center py-2 px-6 border-2 rounded-full text-yellow-400 border-yellow-400 flex items-center gap-2 hover:text-gray-300 hover:border-gray-400 duration-100 md:mb-8">
           VIEW ALL SPEAKERS
           <BiRightArrowAlt />
         </button>

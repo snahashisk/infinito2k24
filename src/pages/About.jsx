@@ -68,12 +68,12 @@ const About = () => {
         </div>
       </div>
       <div
-        className="lg:flex justify-between pt-12 items-center"
+        className="lg:flex md:flex justify-between pt-12 items-center"
         data-aos="fade-up"
       >
         <div className="lg:pb-0 pb-4">
           <h3 className="text-fuchsia-600 pb-2">TECHFEST DATE</h3>
-          <p className="text-3xl font-semibold w-2/3">
+          <p className="text-3xl md:text-2xl font-semibold lg:w-2/3">
             COUNT EVERY SECOND UNTIL THE EVENT
           </p>
         </div>
