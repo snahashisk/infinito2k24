@@ -42,16 +42,16 @@ const About = () => {
           <p className="text-xl text-fuchsia-400 underline underline-offset-8 decoration-fuchsia-800">
             ABOT INFINITO 2K23
           </p>
-          <h1 className="lg:text-5xl text-3xl font-bold tracking-wide">
+          <h1 className="lg:text-5xl text-3xl font-bold tracking-wide md:text-5xl">
             WELCOME TO THE LARGEST TECHFEST
           </h1>
-          <p className="w-3/4 leading-8">
+          <p className="w-3/4 leading-8 md:text-xl">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
             nostrum laudantium ipsa excepturi repudiandae ea pariatur? Voluptas
             nesciunt doloremque, aliquam id incidunt nobis quidem fugiat totam
             maxime, distinctio, est qui.
           </p>
-          <button className="px-4 py-2 bg-gradient-to-r from-indigo-700 to-fuchsia-700 rounded-full text-xl flex items-center justify-center">
+          <button className="px-4 py-2 bg-gradient-to-r from-indigo-700 to-fuchsia-700 rounded-full text-xl flex items-center justify-center md:text-2xl">
             Interested
             <BiRightArrowAlt className="text-2xl" />
           </button>
@@ -77,36 +77,36 @@ const About = () => {
             COUNT EVERY SECOND UNTIL THE EVENT
           </p>
         </div>
-        <div className="flex lg:gap-4 gap-2 lg:w-2/4 justify-around">
+        <div className="flex lg:gap-4 md:gap-4 gap-2 lg:w-2/4 lg:justify-around justify-center">
           <div className="text-center border-2 lg:p-4 p-2 rounded-md border-gray-500">
-            <p className="lg:text-6xl text-4xl font-bold tracking-wide text-gray-300">
+            <p className="lg:text-6xl md:text-6xl text-4xl font-bold tracking-wide text-gray-300">
               00
             </p>
-            <p className="lg:text-xl text-gray-400">Months</p>
+            <p className="lg:text-xl md:text-xl text-gray-400">Months</p>
           </div>
           <div className="text-center border-2 lg:p-4 p-2 rounded-md border-gray-500">
-            <p className="lg:text-6xl text-4xl font-bold tracking-wide text-gray-300">
+            <p className="lg:text-6xl md:text-6xl text-4xl font-bold tracking-wide text-gray-300">
               00
             </p>
-            <p className="lg:text-xl text-gray-400">Days</p>
+            <p className="lg:text-xl md:text-xl text-gray-400">Days</p>
           </div>
           <div className="text-center border-2 lg:p-4 p-2 rounded-md border-gray-500">
-            <p className="lg:text-6xl text-4xl font-bold tracking-wide text-gray-300">
+            <p className="lg:text-6xl md:text-6xl text-4xl font-bold tracking-wide text-gray-300">
               00
             </p>
-            <p className="lg:text-xl text-gray-400">Hours</p>
+            <p className="lg:text-xl md:text-xl text-gray-400">Hours</p>
           </div>
           <div className="text-center border-2 lg:p-4 p-2 rounded-md border-gray-500">
-            <p className="lg:text-6xl text-4xl font-bold tracking-wide text-gray-300">
+            <p className="lg:text-6xl md:text-6xl text-4xl font-bold tracking-wide text-gray-300">
               00
             </p>
-            <p className="lg:text-xl text-gray-400">Minutes</p>
+            <p className="lg:text-xl md:text-xl text-gray-400">Minutes</p>
           </div>
           <div className="text-center border-2 lg:p-4 p-2 rounded-md border-gray-500">
-            <p className="lg:text-6xl text-4xl font-bold tracking-wide text-gray-300">
+            <p className="lg:text-6xl md:text-6xl text-4xl font-bold tracking-wide text-gray-300">
               00
             </p>
-            <p className="lg:text-xl text-gray-400">Seconds</p>
+            <p className="lg:text-xl md:text-xl text-gray-400">Seconds</p>
           </div>
         </div>
       </div>
