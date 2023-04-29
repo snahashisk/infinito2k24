@@ -13,10 +13,10 @@ const Home = () => {
       <div className="flex w-full px-6">
         <div className="px-16 py-8">
           <h1 className="text-9xl w-1/2 font-extrabold py-6 text-yellow-400 text-shadow-lg font-cursive">
-            INFINITO
+            INFINITO 2K23
           </h1>
-          <h1 className="text-white text-6xl w-2/3 font-semibold">
-            THE BEST TECHFEST IN KOLKATA
+          <h1 className="text-white text-5xl font-semibold">
+            THE BEST IN CULTURAL AND TECHFEST IN KOLKATA
           </h1>
           <p className="text-gray-200 py-8 w-3/4 leading-7">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam

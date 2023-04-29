@@ -33,7 +33,7 @@ const Sponsor = () => {
         <img src={company10} alt="Our Sponsors" className="w-3/4" />
       </div>
       <div className="flex justify-around">
-        <div className="w-2/5 bg-slate-800 rounded-lg p-8">
+        <div className="w-2/5 bg-slate-900 rounded-lg p-8">
           <p className=" text-gray-200">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
             quibusdam iste reprehenderit beatae fuga voluptatum, omnis eum. Nam
@@ -50,7 +50,7 @@ const Sponsor = () => {
             </div>
           </div>
         </div>
-        <div className="w-2/5 bg-slate-800 rounded-lg p-8 ">
+        <div className="w-2/5 bg-slate-900 rounded-lg p-8 ">
           <p className=" text-gray-200">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
             quibusdam iste reprehenderit beatae fuga voluptatum, omnis eum. Nam

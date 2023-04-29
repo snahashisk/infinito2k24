@@ -70,27 +70,19 @@ const About = () => {
             <p className="text-xl text-gray-400">Months</p>
           </div>
           <div className="text-center border-2 p-4 rounded-md border-gray-500">
-            <p className="text-6xl font-bold tracking-wide text-gray-300">
-              {days}
-            </p>
+            <p className="text-6xl font-bold tracking-wide text-gray-300">00</p>
             <p className="text-xl text-gray-400">Days</p>
           </div>
           <div className="text-center border-2 p-4 rounded-md border-gray-500">
-            <p className="text-6xl font-bold tracking-wide text-gray-300">
-              {hours}
-            </p>
+            <p className="text-6xl font-bold tracking-wide text-gray-300">00</p>
             <p className="text-xl text-gray-400">Hours</p>
           </div>
           <div className="text-center border-2 p-4 rounded-md border-gray-500">
-            <p className="text-6xl font-bold tracking-wide text-gray-300">
-              {minutes}
-            </p>
+            <p className="text-6xl font-bold tracking-wide text-gray-300">00</p>
             <p className="text-xl text-gray-400">Minutes</p>
           </div>
           <div className="text-center border-2 p-4 rounded-md border-gray-500">
-            <p className="text-6xl font-bold tracking-wide text-gray-300">
-              {seconds}
-            </p>
+            <p className="text-6xl font-bold tracking-wide text-gray-300">00</p>
             <p className="text-xl text-gray-400">Seconds</p>
           </div>
         </div>

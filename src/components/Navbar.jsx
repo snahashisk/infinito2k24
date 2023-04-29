@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { BiRightArrowAlt } from "react-icons/bi";
+
 const Navbar = () => {
   const [scrollY, setScrollY] = useState(0);
 
