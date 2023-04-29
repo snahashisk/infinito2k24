@@ -1,4 +1,6 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import princi from "../images/image-4.jpg";
 import chairperson from "../images/image-3.jpg";
 import studnetCo from "../images/image-5.jpeg";
@@ -7,13 +9,14 @@ import Card from "../components/Card";
 import { BiRightArrowAlt } from "react-icons/bi";
 
 const Speaker = () => {
+  AOS.init();
   return (
-    <div className="h-screen w-full bg-slate-950 text-white px-20 pt-24 font-sans flex flex-col item-center">
+    <div className="lg:h-screen w-full bg-slate-950 text-white px-20 pt-24 font-sans flex flex-col item-center">
       <div className="text-center">
         <p className="text-xl py-4 text-fuchsia-400">OUR SPEAKINGS</p>
         <p className="text-5xl font-bold tracking-wide pb-8">WHO’S SPEAKING</p>
       </div>
-      <div className="flex justify-around pb-16">
+      <div className="lg:flex lg:justify-around pb-16" data-aos="fade-up">
         <Card
           name="Dipankar Sarkar"
           designation="PRINCIPAL"

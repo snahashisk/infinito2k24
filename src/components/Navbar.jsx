@@ -58,7 +58,7 @@ const Navbar = () => {
     };
   }, []);
 
-  const navbarClasses = `fixed font-sans z-10 w-full flex justify-around items-center bg-black ${
+  const navbarClasses = `lg:visible invisible fixed font-sans z-10 w-full flex justify-around items-center bg-black ${
     scrollY > 0 ? " bg-opacity-100" : " bg-opacity-50"
   } duration-150 hover:bg-opacity-100 ${scrollY > 0 ? "py-4" : "py-6"}`;
   return (

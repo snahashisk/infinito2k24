@@ -2,15 +2,15 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="pb-20 w-full bg-black text-white px-20 pt-16 font-sans">
+    <div className="pb-20 w-full bg-black text-white lg:px-20 px-8 pt-16 font-sans">
       <div className="text-center">
         <p className="text-xl py-4 text-fuchsia-400">HAVE QUESTION?</p>
         <p className="text-5xl font-bold tracking-wide pb-8 text-gray-300">
           CONTACT US
         </p>
       </div>
-      <div className="flex justify-around">
-        <div className="flex gap-2 flex-col w-1/3">
+      <div className="lg:flex justify-around">
+        <div className="flex gap-2 flex-col lg:w-1/3">
           <div className="py-2">
             <h2 className="text-gray-400">Address:</h2>
             <p className="text-xl text-gray-300">
@@ -36,7 +36,7 @@ const Contact = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-start justify-center gap-8 bg-slate-900 w-3/5 p-12 rounded-lg">
+        <div className="flex flex-col items-start justify-center gap-8 bg-slate-900 lg:w-3/5 lg:p-12 p-8 rounded-lg">
           <div className="w-full flex gap-4">
             <input
               type="text"

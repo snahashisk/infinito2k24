@@ -1,4 +1,6 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import event1 from "../images/image-7.jpg";
 import event2 from "../images/image-8.jpg";
 import event3 from "../images/image-9.jpg";
@@ -6,16 +8,20 @@ import event4 from "../images/image-10.jpg";
 import event5 from "../images/image-11.jpg";
 
 const Event = () => {
+  AOS.init();
   return (
-    <div className="min-h-screen w-full bg-black text-white px-20 pt-24 font-sans">
+    <div className="lg:min-h-screen w-full bg-black text-white lg:px-20 px-8 lg:pb-0 pb-8 pt-24 font-sans">
       <div className="text-center">
         <p className="text-xl py-4 text-fuchsia-400">OUR EVENTS</p>
         <h2 className="text-5xl font-bold tracking-wide pb-8">
           OFFLINE EVENTS
         </h2>
       </div>
-      <div className="flex justify-around flex-wrap gap-4">
-        <div className="w-2/6 bg-slate-950 overflow-hidden">
+      <div className="lg:flex justify-around flex-wrap gap-4">
+        <div
+          className="lg:w-2/6 bg-slate-950 overflow-hidden"
+          data-aos="fade-up"
+        >
           <img src={event1} alt="event" />
           <div className="py-6 px-6 flex flex-col gap-2">
             <div className="flex h-6 gap-4 items-center">
@@ -40,7 +46,10 @@ const Event = () => {
           </div>
         </div>
 
-        <div className="w-2/6 bg-slate-950 overflow-hidden">
+        <div
+          className="lg:w-2/6 bg-slate-950 overflow-hidden"
+          data-aos="fade-up"
+        >
           <img src={event2} alt="event" />
           <div className="py-6 px-6 flex flex-col gap-2">
             <div className="flex h-6 gap-4 items-center">
@@ -62,7 +71,10 @@ const Event = () => {
           </div>
         </div>
 
-        <div className="w-1/4 bg-slate-950 overflow-hidden">
+        <div
+          className="lg:w-1/4 bg-slate-950 overflow-hidden"
+          data-aos="fade-up"
+        >
           <img src={event3} alt="event" />
           <div className="py-6 px-6 flex flex-col gap-2">
             <div className="flex h-6 gap-4 items-center">
@@ -84,7 +96,10 @@ const Event = () => {
           </div>
         </div>
 
-        <div className="w-1/4 bg-slate-950 overflow-hidden">
+        <div
+          className="lg:w-1/4 bg-slate-950 overflow-hidden"
+          data-aos="fade-up"
+        >
           <img src={event4} alt="event" />
           <div className="py-6 px-6 flex flex-col gap-2">
             <div className="flex h-6 gap-4 items-center">
@@ -106,7 +121,10 @@ const Event = () => {
           </div>
         </div>
 
-        <div className="w-2/6 bg-slate-950 overflow-hidden">
+        <div
+          className="lg:w-2/6 bg-slate-950 overflow-hidden"
+          data-aos="fade-up"
+        >
           <img src={event5} alt="event" />
           <div className="py-6 px-6 flex flex-col gap-2">
             <div className="flex h-6 gap-4 items-center">
@@ -128,7 +146,10 @@ const Event = () => {
           </div>
         </div>
 
-        <div className="w-2/6 bg-slate-950 overflow-hidden">
+        <div
+          className="lg:w-2/6 bg-slate-950 overflow-hidden"
+          data-aos="fade-up"
+        >
           <img src={event3} alt="event" />
           <div className="py-6 px-6 flex flex-col gap-2">
             <div className="flex h-6 gap-4 items-center">

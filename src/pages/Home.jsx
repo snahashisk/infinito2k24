@@ -4,18 +4,18 @@ import { BiRightArrowAlt } from "react-icons/bi";
 
 const Home = () => {
   return (
-    <section className="w-full h-screen relative font-sans bg-black bg-opacity-30 pt-24">
+    <section className="w-full lg:h-screen relative font-sans bg-black lg:bg-opacity-30 pt-24">
       <img
         src={mainImgae}
         alt="logo"
         className="w-full absolute top-0 right-0 h-screen -z-50"
       />
-      <div className="flex w-full px-6">
-        <div className="px-16 py-8">
-          <h1 className="text-9xl w-1/2 font-extrabold py-6 text-yellow-400 text-shadow-lg font-cursive">
+      <div className="lg:flex w-full px-6">
+        <div className="lg:px-16 py-8">
+          <h1 className="lg:text-9xl text-6xl w-1/2 font-extrabold py-6 text-yellow-400 text-shadow-lg font-cursive">
             INFINITO 2K23
           </h1>
-          <h1 className="text-white text-5xl font-semibold">
+          <h1 className="text-white lg:text-5xl text-4xl font-semibold">
             THE BEST IN CULTURAL AND TECHFEST IN KOLKATA
           </h1>
           <p className="text-gray-200 py-8 w-3/4 leading-7">
@@ -29,8 +29,8 @@ const Home = () => {
             <BiRightArrowAlt className="text-2xl" />
           </button>
         </div>
-        <div className="text-white w-full pt flex flex-col justify-end items-end pr-16 gap-2">
-          <h1 className="text-fuchsia-400 text-5xl font-semibold">
+        <div className="text-white w-full pt flex flex-col lg:justify-end lg:items-end lg:pr-16 gap-2">
+          <h1 className="text-fuchsia-400 lg:text-5xl text-3xl font-semibold">
             TO BE ANNOUNCED
           </h1>
           <p className="text-lg">
