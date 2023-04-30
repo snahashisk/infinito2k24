@@ -1,5 +1,6 @@
 import React from "react";
 import mainImgae from "../images/image-1.jpg";
+import mainBg from "../images/main-bg.jpg";
 import { BiRightArrowAlt } from "react-icons/bi";
 
 const Home = () => {
@@ -11,11 +12,16 @@ const Home = () => {
   };
 
   return (
-    <section className="w-full lg:h-screen relative font-sans bg-black lg:bg-opacity-30 md:bg-opacity-30 md:pb-8 pt pt-24">
+    <section className="w-full lg:h-screen relative font-sans lg:bg-black lg:bg-opacity-30 md:bg-opacity-30 pb-8 pt pt-24">
       <img
         src={mainImgae}
         alt="logo"
-        className="w-full absolute top-0 right-0 h-screen -z-50"
+        className="lg:visible invisible w-full absolute top-0 right-0 h-full -z-50"
+      />
+      <img
+        src={mainBg}
+        alt="logo"
+        className="visible lg:invisible w-full absolute top-0 right-0 h-full -z-50"
       />
       <div className="lg:flex w-full px-6">
         <div className="lg:px-16 py-8">
