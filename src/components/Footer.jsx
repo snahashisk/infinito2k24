@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillFacebook, AiFillInstagram, AiFillYoutube } from "react-icons/ai";
+import BlinkingDot from "./BlinkingDot";
 const Footer = () => {
   return (
     <div className="w-full lg:h-2/3 bg-slate-950 lg:px-20 px-8 py-8  font-sans text-white lg:grid lg:grid-cols-4 lg:grid-rows-1 flex flex-col gap-4">
@@ -64,6 +65,7 @@ const Footer = () => {
           }
         >
           Snahashis Kanrar
+          <BlinkingDot />
         </span>
       </p>
     </div>
