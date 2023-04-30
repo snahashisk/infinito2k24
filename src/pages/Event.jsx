@@ -1,7 +1,6 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import event1 from "../images/image-7.jpg";
 import event3 from "../images/image-9.jpg";
 import event4 from "../images/image-10.jpg";
 import codingBanner from "../images/coding-banner.png";
