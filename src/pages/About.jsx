@@ -9,6 +9,13 @@ const About = () => {
   const targetDate = "2023-05-19T10:00:00";
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
+  const scrollToEvent = () => {
+    window.scrollTo({
+      top: 5.5 * window.innerHeight,
+      behavior: "smooth",
+    });
+  };
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setTimeLeft(calculateTimeLeft());
@@ -52,7 +59,10 @@ const About = () => {
             technical events like coding, robotics, and gaming, there is
             something for everyone.
           </p>
-          <button className="px-4 py-2 bg-gradient-to-r from-indigo-700 to-fuchsia-700 rounded-full text-xl flex items-center justify-center md:text-2xl">
+          <button
+            className="px-4 py-2 bg-gradient-to-r from-indigo-700 to-fuchsia-700 rounded-full text-xl flex items-center justify-center md:text-2xl"
+            onClick={scrollToEvent}
+          >
             Interested
             <BiRightArrowAlt className="text-2xl" />
           </button>

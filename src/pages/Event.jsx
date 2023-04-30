@@ -10,7 +10,7 @@ import event5 from "../images/image-11.jpg";
 const Event = () => {
   AOS.init();
   return (
-    <div className="lg:min-h-screen w-full bg-black text-white lg:px-20 px-8 lg:pb-0 pb-8 lg:pt-24 pt-16 font-sans">
+    <div className="lg:min-h-screen w-full bg-black text-white lg:px-20 px-8 pb-8 lg:pt-24 pt-16 font-sans ">
       <div className="text-center">
         <p className="text-xl py-4 text-fuchsia-400">OUR EVENTS</p>
         <h2 className="text-5xl font-bold tracking-wide pb-8">
@@ -61,10 +61,10 @@ const Event = () => {
             </div>
             <p className="text-2xl font-bold">BGMI Contest</p>
             <p className="text-gray-300">
-              Join the ultimate gaming battle with BGMI Mobile Gaming Contest!
-              Compete with players from all over and prove your skills in the
-              virtual battlegrounds. Win big prizes, fame, and glory! Don't
-              wait, register now and show the world what you're made of.
+              Enter the BGMI Mobile Gaming Contest and compete with players from
+              all over in the ultimate gaming battle. Show off your virtual
+              battleground skills for a chance to win big prizes, fame, and
+              glory. Register now to prove yourself.
             </p>
             <button
               className="bg-yellow-400 text-black mt-4 py-2 rounded-md"
@@ -122,12 +122,12 @@ const Event = () => {
             </div>
             <p className="text-2xl font-bold">3D Printing Seminar</p>
             <p className="text-gray-300">
-              Step into the world of 3D Printing with our Seminar! Join us and
-              discover the endless possibilities of this revolutionary
-              technology. Learn from the experts and explore the latest trends,
-              tools, and techniques in 3D Printing. Whether you're a beginner or
-              an expert, this seminar is for you! Register now and take the
-              first step towards unleashing your creativity with 3D Printing.
+              Discover the revolutionary technology of 3D Printing at our
+              seminar and explore its limitless possibilities. Learn from
+              industry experts about the latest trends, tools, and techniques
+              whether you're a beginner or an expert. Take the first step
+              towards unlocking your creativity with 3D Printing by registering
+              now.
             </p>
             <button
               className="bg-yellow-400 text-black mt-4 py-2 rounded-md"

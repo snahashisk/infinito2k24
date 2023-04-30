@@ -56,7 +56,6 @@ const Navbar = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-    console.log(window.innerWidth);
   }, []);
 
   const navbarClasses = `fixed font-sans z-10 w-full lg:flex justify-around items-center bg-black lg:py-4 py-0 duration-150  ${

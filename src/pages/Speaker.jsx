@@ -38,12 +38,6 @@ const Speaker = () => {
           place="@dit"
           image={annie}
         />
-        <Card
-          name="Dipankar Sarkar"
-          designation="PRINCIPAL"
-          place="@dit"
-          image={princi}
-        />
       </div>
       <div className="w-full flex items-center justify-center">
         <button className="text-center py-2 px-6 border-2 rounded-full text-yellow-400 border-yellow-400 flex items-center gap-2 hover:text-gray-300 hover:border-gray-400 duration-100 md:mb-8">
