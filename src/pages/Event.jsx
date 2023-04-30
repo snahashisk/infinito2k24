@@ -5,7 +5,7 @@ import event1 from "../images/image-7.jpg";
 import event2 from "../images/image-8.jpg";
 import event3 from "../images/image-9.jpg";
 import event4 from "../images/image-10.jpg";
-import event5 from "../images/image-11.jpg";
+import codingBanner from "../images/coding-banner.png";
 import quizBanner from "../images/quiz-banner.png";
 
 const Event = () => {
@@ -145,7 +145,7 @@ const Event = () => {
           className="lg:w-2/6 md:w-2/5 bg-slate-950 overflow-hidden"
           data-aos="fade-up"
         >
-          <img src={event5} alt="event" />
+          <img src={codingBanner} alt="event" />
           <div className="py-6 px-6 flex flex-col gap-2">
             <div className="flex h-6 gap-4 items-center">
               <p className="bg-green-600 w-min px-4 rounded-full">FREE</p>
