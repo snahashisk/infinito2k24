@@ -6,6 +6,7 @@ import event2 from "../images/image-8.jpg";
 import event3 from "../images/image-9.jpg";
 import event4 from "../images/image-10.jpg";
 import event5 from "../images/image-11.jpg";
+import quizBanner from "../images/quiz-banner.png";
 
 const Event = () => {
   AOS.init();
@@ -175,7 +176,7 @@ const Event = () => {
           className="lg:w-2/6 md:w-2/5 bg-slate-950 overflow-hidden"
           data-aos="fade-up"
         >
-          <img src={event3} alt="event" />
+          <img src={quizBanner} alt="event" />
           <div className="py-6 px-6 flex flex-col gap-2">
             <div className="flex h-6 gap-4 items-center">
               <p className="bg-green-600 w-min px-4 rounded-full">FREE</p>
@@ -183,14 +184,20 @@ const Event = () => {
                 DIT Students Only
               </p>
             </div>
-            <p className="text-2xl font-bold">Photography Contest</p>
+            <p className="text-2xl font-bold">Technical Quiz</p>
             <p className="text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos illum iste veniam mollitia vero obcaecati officiis
-              eligendi fugiat est, iure reiciendis temporibus rerum tenetur
-              laudantium debitis voluptate id suscipit hic!
+              Attention all students! We invite you to join our technical quiz
+              event and put your knowledge to the test for a chance to win
+              exciting prizes. Don't miss this opportunity to challenge yourself
+              and showcase your skills in the dynamic world of technology.
+              Register now!
             </p>
-            <button className="bg-yellow-400 text-black mt-4 py-2 rounded-md">
+            <button
+              className="bg-yellow-400 text-black mt-4 py-2 rounded-md"
+              onClick={() =>
+                window.open("https://forms.gle/hxXCowGS7nPQxbit5", "_blank")
+              }
+            >
               Register here
             </button>
           </div>

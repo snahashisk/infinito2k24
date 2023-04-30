@@ -1,27 +1,31 @@
 import React from "react";
-
+import { AiFillFacebook, AiFillInstagram, AiFillYoutube } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className="w-full lg:h-2/3 bg-slate-950 lg:px-20 px-8 py-8  font-sans text-white lg:grid lg:grid-cols-4 lg:grid-rows-1 flex flex-col gap-4">
       <div className="col-span-1 row-span-1 flex flex-col gap-4 px-4">
-        <h1 className="text-3xl font-bold">
+        <h1 className="text-3xl font-bold ">
           INFINITO <span className="text-yellow-400">2K23</span>
         </h1>
         <p className="text-slate-400">
           Our fest offers a platform for young talents to showcase their skills
           and compete in diverse events.
         </p>
-        <div>Logos</div>
+        <div className="flex text-3xl gap-2">
+          <AiFillFacebook className="text-blue-600" />
+          <AiFillInstagram className="text-violet-600" />
+          <AiFillYoutube className="text-red-600" />
+        </div>
       </div>
       <div className="lg:col-span-1 lg:row-span-1 col-span-1 row-span-1 px-4 flex flex-col lg:gap-2">
-        <h1 className="text-2xl font-bold text-slate-100">Workshops</h1>
+        <h1 className="text-2xl font-bold text-slate-200">Workshops</h1>
         <p className="text-slate-400">Machine Learning</p>
         <p className="text-slate-400">3D Printing</p>
         <p className="text-slate-400">Competitive Coding</p>
         <p className="text-slate-400">Matlab Hands On</p>
       </div>
       <div className="lg:col-span-1 col-span-2 row-span-1 px-4 flex flex-col lg:gap-2 gap-1">
-        <h1 className="text-2xl font-bold text-slate-100">Contact</h1>
+        <h1 className="text-2xl font-bold text-slate-200">Contact</h1>
         <p className="text-slate-400">
           Thakurpukur, Samali, B.H Road Kolkata : 700104
         </p>
@@ -32,7 +36,7 @@ const Footer = () => {
         <p className="text-slate-400">www.dreaminstituteonline.com</p>
       </div>
       <div className="lg:col-span-1 col-span-2 row-span-1 px-4 flex flex-col lg:gap-4 gap-2 items-start">
-        <p className="text-2xl font-bold text-slate-100">
+        <p className="text-2xl font-bold text-slate-200">
           Subscribe Newsletter
         </p>
         <p className="text-slate-400">

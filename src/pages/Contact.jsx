@@ -10,26 +10,26 @@ const Contact = () => {
         </p>
       </div>
       <div className="lg:flex justify-around">
-        <div className="flex gap-2 flex-col lg:w-1/3">
-          <div className="py-2">
+        <div className="flex lg:gap-2 flex-col lg:w-1/3">
+          <div className="lg:py-2 py-1">
             <h2 className="text-gray-400">Address:</h2>
             <p className="text-xl text-gray-300">
               Thakurpukur, Samali, B.H Road Kolkata : 700104 West Bengal, India
             </p>
           </div>
-          <div className="py-2">
+          <div className="lg:py-2 py-1">
             <h2 className="text-gray-400">Phone:</h2>
             <p className="text-xl text-gray-300">
               (+91) 8637365730, (+91) 8017812721
             </p>
           </div>
-          <div className="py-2">
+          <div className="lg:py-2 py-1">
             <h2 className="text-gray-400">Email:</h2>
             <p className="text-xl text-gray-300">
               dit.infinitoofficial@gmail.com
             </p>
           </div>
-          <div className="py-2">
+          <div className="lg:py-2 py-1">
             <h2 className="text-gray-400">Website:</h2>
             <p className="text-xl text-gray-300">
               www.dreaminstituteonline.com
