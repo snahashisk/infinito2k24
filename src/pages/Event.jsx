@@ -20,7 +20,7 @@ const Event = () => {
       </div>
       <div className="lg:flex md:flex justify-around flex-wrap lg:gap-4 gap-2">
         <div
-          className="lg:w-2/6 md:w-2/5 bg-slate-900 overflow-hidden lg:mb-0 mb-4"
+          className="lg:w-2/6 md:w-2/5 bg-slate-900 overflow-hidden lg:mb-0 mb-4 rounded-lg"
           data-aos="fade-up"
         >
           <img src={event1} alt="event" />
@@ -49,7 +49,7 @@ const Event = () => {
         </div>
 
         <div
-          className="lg:w-2/6 md:w-2/5 bg-slate-900 overflow-hidden lg:mb-0 mb-4"
+          className="lg:w-2/6 md:w-2/5 bg-slate-900 overflow-hidden lg:mb-0 mb-4 rounded-lg"
           data-aos="fade-up"
         >
           <img src={event2} alt="event" />
@@ -62,10 +62,11 @@ const Event = () => {
             </div>
             <p className="text-2xl font-bold">BGMI Contest</p>
             <p className="text-gray-300">
-              Enter the BGMI Mobile Gaming Contest and compete with players from
-              all over in the ultimate gaming battle. Show off your virtual
-              battleground skills for a chance to win big prizes, fame, and
-              glory. Register now to prove yourself.
+              Join the BGMI Mobile Gaming Contest and face off against players
+              worldwide in the ultimate gaming battle. Showcase your virtual
+              battleground skills and stand a chance to win huge prizes, fame,
+              and glory. Register now to prove yourself and seize the
+              opportunity to make a mark in the gaming world.
             </p>
             <button
               className="bg-yellow-400 text-black mt-4 py-2 rounded-md"
@@ -79,7 +80,7 @@ const Event = () => {
         </div>
 
         <div
-          className="lg:w-1/4 md:w-2/5 bg-slate-900 overflow-hidden lg:mb-0 mb-4"
+          className="lg:w-1/4 md:w-2/5 bg-slate-900 overflow-hidden lg:mb-0 mb-4 rounded-lg"
           data-aos="fade-up"
         >
           <img src={event3} alt="event" />
@@ -92,11 +93,11 @@ const Event = () => {
             </div>
             <p className="text-2xl font-bold">Machine Learning Seminar</p>
             <p className="text-gray-300">
-              Unlock the power of Machine Learning with our seminar! Join us and
-              learn from the experts as we explore the latest trends, tools, and
-              techniques in ML. Discover how ML is transforming industries and
-              how you can leverage it for your business. Register now and take
-              the first step towards mastering ML.
+              Discover the latest trends, tools, and techniques in Machine
+              Learning (ML) and how it's transforming industries. Learn from the
+              experts and unlock the power of ML for your business by joining
+              our seminar. Take the first step towards mastering ML and register
+              now to gain valuable insights.
             </p>
             <button
               className="bg-yellow-400 text-black mt-4 py-2 rounded-md"
@@ -110,7 +111,7 @@ const Event = () => {
         </div>
 
         <div
-          className="lg:w-1/4 md:w-2/5 bg-slate-900 overflow-hidden lg:mb-0 mb-4"
+          className="lg:w-1/4 md:w-2/5 bg-slate-900 overflow-hidden lg:mb-0 mb-4 rounded-lg"
           data-aos="fade-up"
         >
           <img src={event4} alt="event" />
@@ -123,12 +124,10 @@ const Event = () => {
             </div>
             <p className="text-2xl font-bold">3D Printing Seminar</p>
             <p className="text-gray-300">
-              Discover the revolutionary technology of 3D Printing at our
-              seminar and explore its limitless possibilities. Learn from
-              industry experts about the latest trends, tools, and techniques
-              whether you're a beginner or an expert. Take the first step
-              towards unlocking your creativity with 3D Printing by registering
-              now.
+              Join our seminar to discover 3D Printing's revolutionary
+              technology and explore its limitless possibilities. Learn from
+              industry experts about the latest trends, tools, and techniques.
+              Register now to unlock your creativity.
             </p>
             <button
               className="bg-yellow-400 text-black mt-4 py-2 rounded-md"
@@ -142,7 +141,7 @@ const Event = () => {
         </div>
 
         <div
-          className="lg:w-2/6 md:w-2/5 bg-slate-900 overflow-hidden lg:mb-0 mb-4"
+          className="lg:w-2/6 md:w-2/5 bg-slate-900 overflow-hidden lg:mb-0 mb-4 rounded-lg"
           data-aos="fade-up"
         >
           <img src={codingBanner} alt="event" />
@@ -173,7 +172,7 @@ const Event = () => {
         </div>
 
         <div
-          className="lg:w-2/6 md:w-2/5 bg-slate-900 overflow-hidden lg:mb-0 mb-4"
+          className="lg:w-2/6 md:w-2/5 bg-slate-900 overflow-hidden lg:mb-0 mb-4 rounded-lg"
           data-aos="fade-up"
         >
           <img src={quizBanner} alt="event" />
