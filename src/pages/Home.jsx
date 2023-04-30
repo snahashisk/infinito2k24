@@ -11,6 +11,10 @@ const Home = () => {
     });
   };
 
+  const bookTicket = () => {
+    alert("Tickets will be available from 16th May 2013!!!");
+  };
+
   return (
     <section className="w-full lg:h-screen relative font-sans lg:bg-black lg:bg-opacity-30 md:bg-opacity-30 pb-8 pt pt-24">
       <img
@@ -57,7 +61,10 @@ const Home = () => {
           <p className="text-lg">
             Thakurpukur, Samali, B.H Road Kolkata : 700104
           </p>
-          <button className="py-2 px-4 border-2 rounded-lg border-yellow-400 text-yellow-400 text-xl mt-4 hover:bg-yellow-400 hover:text-gray-800 duration-150">
+          <button
+            className="py-2 px-4 border-2 rounded-lg border-yellow-400 text-yellow-400 text-xl mt-4 hover:bg-yellow-400 hover:text-gray-800 duration-150"
+            onClick={bookTicket}
+          >
             BUY TICKET
           </button>
         </div>

@@ -17,7 +17,7 @@ import cust2 from "../images/image-3.jpg";
 const Sponsor = () => {
   AOS.init();
   return (
-    <div className="w-full bg-slate-950 text-white lg:px-20 px-8 pt-24 font-sans pb-16">
+    <div className="w-full bg-slate-950 text-white lg:px-20 px-8 lg:pt-24 pt-8 font-sans pb-16">
       <div className="text-center">
         <p className="text-xl py-4 text-fuchsia-400">PARTNERS & SPONSORS</p>
         <p className="text-5xl font-bold tracking-wide pb-8 text-gray-300">
