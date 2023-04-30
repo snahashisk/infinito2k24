@@ -2,11 +2,12 @@ import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import event1 from "../images/image-7.jpg";
-import event2 from "../images/image-8.jpg";
 import event3 from "../images/image-9.jpg";
 import event4 from "../images/image-10.jpg";
 import codingBanner from "../images/coding-banner.png";
 import quizBanner from "../images/quiz-banner.png";
+import bgmiBanner from "../images/bgmi-banner.png";
+import photoBanner from "../images/photo-banner.png";
 
 const Event = () => {
   AOS.init();
@@ -23,7 +24,7 @@ const Event = () => {
           className="lg:w-2/6 md:w-2/5 bg-slate-900 overflow-hidden lg:mb-0 mb-4 rounded-lg"
           data-aos="fade-up"
         >
-          <img src={event1} alt="event" />
+          <img src={photoBanner} alt="event" />
           <div className="py-6 px-6 flex flex-col gap-2">
             <div className="flex h-6 gap-4 items-center">
               <p className="bg-red-600 w-min px-4 rounded-full">PAID</p>
@@ -52,7 +53,7 @@ const Event = () => {
           className="lg:w-2/6 md:w-2/5 bg-slate-900 overflow-hidden lg:mb-0 mb-4 rounded-lg"
           data-aos="fade-up"
         >
-          <img src={event2} alt="event" />
+          <img src={bgmiBanner} alt="event" />
           <div className="py-6 px-6 flex flex-col gap-2">
             <div className="flex h-6 gap-4 items-center">
               <p className="bg-green-600 w-min px-4 rounded-full">FREE</p>
@@ -60,7 +61,7 @@ const Event = () => {
                 DIT Students Only
               </p>
             </div>
-            <p className="text-2xl font-bold">BGMI Contest</p>
+            <p className="text-2xl font-bold">BGMI Tournament</p>
             <p className="text-gray-300">
               Join the BGMI Mobile Gaming Contest and face off against players
               worldwide in the ultimate gaming battle. Showcase your virtual
