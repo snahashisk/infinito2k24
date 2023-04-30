@@ -12,7 +12,7 @@ const Home = () => {
   };
 
   const bookTicket = () => {
-    alert("Tickets will be available from 16th May 2013!!!");
+    alert("Tickets will be available from 16th May 2023!!!");
   };
 
   return (
