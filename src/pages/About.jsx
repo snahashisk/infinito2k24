@@ -10,10 +10,18 @@ const About = () => {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   const scrollToEvent = () => {
-    window.scrollTo({
-      top: 5.5 * window.innerHeight,
-      behavior: "smooth",
-    });
+    console.log(window.innerHeight, window.innerWidth);
+    if (window.innerWidth > 1030) {
+      window.scrollTo({
+        top: 3 * window.innerHeight,
+        behavior: "smooth",
+      });
+    } else {
+      window.scrollTo({
+        top: 5.5 * window.innerHeight,
+        behavior: "smooth",
+      });
+    }
   };
 
   useEffect(() => {
