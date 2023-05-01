@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div className="w-full lg:h-screen relative font-sans lg:bg-black lg:bg-opacity-30 md:bg-opacity-30 pb-8 pt pt-24 overflow-hidden">
       <button
-        className="lg:py-2 py-2 lg:px-4 px-3 m-0 bg-gradient-to-r from-blue-600 to-violet-600 text-white font-bold absolute lg:-right-32 -right-32 top-1/4 lg:top-1/3 -rotate-90"
+        className="lg:py-2 py-1 lg:px-4 px-3 m-0 bg-gradient-to-r from-blue-600 to-violet-600 text-white font-medium lg:font-bold absolute lg:-right-32 -right-32 top-1/4 lg:top-1/3 -rotate-90"
         onClick={() =>
           window.open("https://forms.gle/xDKUna9HhdM3qftb7", "_blank")
         }
@@ -38,7 +38,7 @@ const Home = () => {
       />
       <div className="lg:flex w-full px-6">
         <div className="lg:px-16 py-8">
-          <h1 className="lg:text-9xl md:text-9xl text-6xl w-1/2 font-extrabold py-6 text-yellow-400 text-shadow-lg font-cursive">
+          <h1 className="lg:text-9xl md:text-6xl text-6xl w-1/2 font-extrabold py-6 text-yellow-400 text-shadow-lg font-cursive">
             INFINITO 2K23
           </h1>
           <h1 className="text-white lg:text-5xl md:text-5xl text-4xl font-semibold lg:w-3/5">
