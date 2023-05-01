@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import company1 from "../images/company-1.png";
 import ditLogo from "../images/dit-logo.png";
-import company3 from "../images/company-3.png";
+// import company3 from "../images/company-3.png";
 // import company4 from "../images/company-4.png";
 // import company5 from "../images/company-5.png";
 // import company6 from "../images/company-6.png";

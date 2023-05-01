@@ -16,7 +16,16 @@ const Home = () => {
   };
 
   return (
-    <section className="w-full lg:h-screen relative font-sans lg:bg-black lg:bg-opacity-30 md:bg-opacity-30 pb-8 pt pt-24">
+    <div className="w-full lg:h-screen relative font-sans lg:bg-black lg:bg-opacity-30 md:bg-opacity-30 pb-8 pt pt-24 overflow-hidden">
+      <button
+        className="lg:py-2 py-2 lg:px-4 px-3 m-0 bg-gradient-to-r from-blue-600 to-violet-600 text-white font-bold absolute lg:-right-32 -right-32 top-1/4 lg:top-1/3 -rotate-90"
+        onClick={() =>
+          window.open("https://forms.gle/xDKUna9HhdM3qftb7", "_blank")
+        }
+      >
+        <span className="text-slate-200">Register For</span> FLASHFIESTA{" "}
+        <span className="text-yellow-300">Win ₹ 500</span>
+      </button>
       <img
         src={mainImgae}
         alt="logo"
@@ -69,7 +78,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
