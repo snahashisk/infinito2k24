@@ -2,17 +2,18 @@ import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import company1 from "../images/company-1.png";
-import company2 from "../images/company-2.png";
+import ditLogo from "../images/dit-logo.png";
 import company3 from "../images/company-3.png";
-import company4 from "../images/company-4.png";
-import company5 from "../images/company-5.png";
-import company6 from "../images/company-6.png";
-import company7 from "../images/company-7.png";
-import company8 from "../images/company-8.png";
-import company9 from "../images/company-9.png";
-import company10 from "../images/company-10.png";
+// import company4 from "../images/company-4.png";
+// import company5 from "../images/company-5.png";
+// import company6 from "../images/company-6.png";
+// import company7 from "../images/company-7.png";
+// import company8 from "../images/company-8.png";
+// import company9 from "../images/company-9.png";
+// import company10 from "../images/company-10.png";
 import cust1 from "../images/image-4.jpg";
 import cust2 from "../images/image-3.jpg";
+import redbullLogo from "../images/redbull-logo.png";
 
 const Sponsor = () => {
   AOS.init();
@@ -32,18 +33,18 @@ const Sponsor = () => {
           data-aos="fade-up"
         />
         <img
-          src={company2}
+          src={ditLogo}
           alt="Our Sponsors"
           className="w-3/4"
           data-aos="fade-up"
         />
         <img
-          src={company3}
+          src={redbullLogo}
           alt="Our Sponsors"
           className="w-3/4"
           data-aos="fade-up"
         />
-        <img
+        {/* <img
           src={company4}
           alt="Our Sponsors"
           className="w-3/4"
@@ -84,7 +85,7 @@ const Sponsor = () => {
           alt="Our Sponsors"
           className="w-3/4"
           data-aos="fade-up"
-        />
+        /> */}
       </div>
       <div className="lg:flex justify-around">
         <div
