@@ -23,7 +23,7 @@ function Modal() {
     isShown && (
       <>
         <div className="fixed inset-0 bg-gray-800 bg-opacity-50 z-40"></div>
-        <div className="bg-white fixed lg:w-1/3 lg:top-32 top-1/4 lg:right-1/3 mx-4 rounded-md shadow-lg z-50 ">
+        <div className="bg-white fixed lg:w-1/3 lg:top-32 top-1/5 lg:right-1/3 mx-4 rounded-md shadow-lg z-50">
           <button
             className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 focus:outline-none"
             onClick={handleClose}
@@ -39,7 +39,7 @@ function Modal() {
               />
             </div>
 
-            <div className="bg-black text-gray-200 p-0 text-center pt-4 flex flex-col gap-2">
+            <div className="bg-black text-gray-200 p-0 text-center pt-4 flex flex-col lg:gap-2 gap-1">
               <h1 className="text-yellow-400">INFINITO MUSIC CONCERT</h1>
               <h2 className="text-4xl font-semibold">
                 Hi I Am{" "}
