@@ -1,6 +1,7 @@
 import React from "react";
 import mainImgae from "../images/image-1.jpg";
 import mainBg from "../images/main-bg.jpg";
+import Modal from "../components/Modal";
 import { BiRightArrowAlt } from "react-icons/bi";
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
 
   return (
     <div className="w-full lg:h-screen relative font-sans lg:bg-black lg:bg-opacity-30 md:bg-opacity-30 pb-8 pt pt-24">
+      <Modal />
       <button
         className="lg:py-2 py-1 lg:px-4 px-3 m-0 bg-gradient-to-r from-blue-600 to-violet-600 text-white font-medium lg:font-bold absolute lg:-right-32 -right-32 top-1/4 lg:top-1/3 -rotate-90"
         onClick={() =>
