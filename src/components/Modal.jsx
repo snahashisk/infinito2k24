@@ -10,7 +10,7 @@ function Modal() {
   };
 
   const openWhatsapp = () => {
-    const number = "8905671436";
+    const number = "+918905671436";
     const message = encodeURIComponent(
       "Hi, I'm interested in attending the Snigdhajit Bhowmik music concert at INFINITO 2k23. Can you please let me know if tickets are still available and how much they cost? Thank you."
     );
