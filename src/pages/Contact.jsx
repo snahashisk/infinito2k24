@@ -52,7 +52,7 @@ const Contact = () => {
           <div className="w-full flex gap-4">
             <input
               type="text"
-              placeholder="Your E-main"
+              placeholder="Your E-mail"
               className="py-2 w-1/2 bg-slate-900 border-b-2 border-slate-400 outline-none focus:border-slate-300 duration-150"
             />
             <input
