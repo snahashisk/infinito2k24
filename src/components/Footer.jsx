@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="w-full lg:h-2/3 bg-slate-950 lg:px-20 px-8 py-8  font-sans text-white lg:grid lg:grid-cols-4 lg:grid-rows-1 flex flex-col gap-4">
       <div className="col-span-1 row-span-1 flex flex-col gap-4 px-4">
         <h1 className="text-3xl font-bold ">
-          INFINITO <span className="text-yellow-400">2K23</span>
+          INFINITO <span className="text-yellow-400">2K24</span>
         </h1>
         <p className="text-slate-400">
           Our fest offers a platform for young talents to showcase their skills

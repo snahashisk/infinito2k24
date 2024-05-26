@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import teamImage from "../images/image-2.jpg";
+import teamImage from "../images/bgimage-2.jpg";
 import { BiRightArrowAlt } from "react-icons/bi";
 
 const About = () => {
   AOS.init();
-  const targetDate = "2023-05-19T10:00:00";
+  const targetDate = "2024-07-04T10:00:00";
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   const scrollToEvent = () => {
@@ -55,7 +55,7 @@ const About = () => {
       <div className="lg:flex gap-4 pt-16 justify-between">
         <div className="flex flex-col gap-6 items-start" data-aos="fade-up">
           <p className="text-xl text-fuchsia-400 underline underline-offset-8 decoration-fuchsia-800">
-            ABOUT INFINITO 2K23
+            ABOUT INFINITO 2K24
           </p>
           <h1 className="lg:text-5xl text-3xl font-bold tracking-wide md:text-5xl">
             WELCOME TO THE LARGEST TECHFEST

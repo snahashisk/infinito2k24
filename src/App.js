@@ -1,6 +1,14 @@
 import "./App.css";
-import { useRef } from "react";
-import { Home, About, Speaker, Event, Sponsor, Contact } from "./pages";
+import {
+  Home,
+  About,
+  Speaker,
+  Event,
+  Sponsor,
+  Contact,
+  Timeline,
+  Gallery,
+} from "./pages";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -10,8 +18,10 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Timeline />
       <Speaker />
       <Event />
+      <Gallery />
       <Sponsor />
       <Contact />
       <Footer />

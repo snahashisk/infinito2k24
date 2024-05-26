@@ -3,7 +3,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import princi from "../images/image-4.jpg";
 import chairperson from "../images/image-3.jpg";
-import studnetCo from "../images/image-5.jpeg";
 import annie from "../images/image-6.jpg";
 import Card from "../components/Card";
 import { BiRightArrowAlt } from "react-icons/bi";

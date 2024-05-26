@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { BiRightArrowAlt } from "react-icons/bi";
-import festlogo from "../images/fest-logo-2.png";
+import festlogo from "../images/website-logo.png";
 
 const Navbar = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -68,6 +68,7 @@ const Navbar = () => {
         src={festlogo}
         className="h-16 cursor-pointer my-4 lg:my-0 md:pl-8 pl-8"
         onClick={scrollToTop}
+        alt="scrolltotop"
       />
       <div className="lg:visible collapse h-0 lg:h-min">
         <ul className="flex gap-8 text-gray-300 items-center">

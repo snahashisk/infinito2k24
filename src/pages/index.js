@@ -5,3 +5,5 @@ export { default as Schedule } from "./Schedule";
 export { default as Speaker } from "./Speaker";
 export { default as Sponsor } from "./Sponsor";
 export { default as Contact } from "./Contact";
+export { default as Timeline } from "./Timeline";
+export { default as Gallery } from "./Gallery";

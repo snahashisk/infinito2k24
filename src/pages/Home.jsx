@@ -1,7 +1,6 @@
 import React from "react";
-import mainImgae from "../images/image-1.jpg";
-import mainBg from "../images/main-bg.jpg";
-import Modal from "../components/Modal";
+import mainImgae from "../images/bgimage-7.jpg";
+import mainBg from "../images/bgimage-5.jpg";
 import { BiRightArrowAlt } from "react-icons/bi";
 
 const Home = () => {
@@ -18,7 +17,6 @@ const Home = () => {
 
   return (
     <div className="w-full lg:h-screen relative font-sans lg:bg-black lg:bg-opacity-30 md:bg-opacity-30 pb-8 pt pt-24">
-      <Modal />
       <button
         className="lg:py-2 py-1 lg:px-4 px-3 m-0 bg-gradient-to-r from-blue-600 to-violet-600 text-white font-medium lg:font-bold absolute lg:-right-32 -right-32 top-1/4 lg:top-1/3 -rotate-90"
         onClick={() =>
@@ -40,22 +38,19 @@ const Home = () => {
       />
       <div className="lg:flex w-full px-6">
         <div className="lg:px-16 py-8">
-          <h1 className="lg:text-9xl md:text-6xl text-6xl w-1/2 font-extrabold py-6 text-yellow-400 text-shadow-lg font-cursive">
-            INFINITO 2K23
+          <h1 className="lg:text-9xl md:text-6xl text-6xl w-1/2 font-extrabold py-6 text-yellow-400 text-shadow-lg font-serif">
+            INFINITO 2K24
           </h1>
-          <h1 className="text-white lg:text-5xl md:text-5xl text-4xl font-semibold lg:w-3/5">
+          <h1 className="text-white lg:text-3xl md:text-5xl text-4xl font-semibold lg:w-3/5 font-cursive">
             THE BEST IN CULTURAL AND TECHFEST IN KOLKATA
           </h1>
-          <p className="text-gray-200 py-8 lg:w-3/4 leading-7 md:text-xl lg:text-base">
+          <p className="text-gray-200 py-8 lg:w-4/5 leading-7 md:text-xl lg:text-base">
             We are excited to showcase our annual cultural and technical
             extravaganza, which is one of the most awaited events of the year.
             The fest is a melting pot of talent, creativity, and innovation,
             bringing together students from various backgrounds and fields of
             study. At Fest, we strive to provide a fun-filled and engaging
-            experience for all participants, sponsors, and attendees. Our team
-            of dedicated volunteers and organizers have been working tirelessly
-            to bring you a spectacular event that you will cherish for years to
-            come.
+            experience for all participants, sponsors, and attendees.
           </p>
           <button
             className="md:text-2xl md:font-bold bg-yellow-400 text-black py-2 px-6 rounded-full font-medium hover:scale-110 duration-150 flex items-center gap-1 hover:shadow-lg"
@@ -65,9 +60,9 @@ const Home = () => {
             <BiRightArrowAlt className="text-2xl" />
           </button>
         </div>
-        <div className="text-white w-full pt flex flex-col lg:justify-end lg:items-end lg:pr-16 gap-2">
-          <h1 className="text-fuchsia-400 lg:text-5xl text-3xl font-semibold">
-            19th & 20th May 2023
+        <div className="text-white w-full flex flex-col lg:justify-end lg:items-end lg:pr-16 gap-2 lg:mb-6">
+          <h1 className="text-fuchsia-500 lg:text-5xl text-3xl font-semibold">
+            4th & 5th July 2024
           </h1>
           <p className="text-lg">
             Thakurpukur, Samali, B.H Road Kolkata : 700104

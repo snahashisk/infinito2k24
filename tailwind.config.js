@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Lato", "sans-serif"],
-        cursive: ["Bruno Ace SC", "cursive"],
+        cursive: ["Orbitron", "cursive"],
+        serif: ["Audiowide", "serif"],
       },
     },
   },
