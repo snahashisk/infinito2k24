@@ -1,6 +1,6 @@
 import React from "react";
 import mainImgae from "../images/bgimage-7.jpg";
-import mainBg from "../images/bgimage-5.jpg";
+import mainBg from "../images/main-bg-1.jpg";
 import { BiRightArrowAlt } from "react-icons/bi";
 
 const Home = () => {
@@ -41,7 +41,7 @@ const Home = () => {
           <h1 className="lg:text-9xl md:text-6xl text-6xl w-1/2 font-extrabold py-6 text-yellow-400 text-shadow-lg font-serif">
             INFINITO 2K24
           </h1>
-          <h1 className="text-white lg:text-3xl md:text-5xl text-4xl font-semibold lg:w-3/5 font-cursive">
+          <h1 className="text-white lg:text-3xl md:text-5xl text-3xl font-semibold lg:w-3/5 font-cursive">
             THE BEST IN CULTURAL AND TECHFEST IN KOLKATA
           </h1>
           <p className="text-gray-200 py-8 lg:w-4/5 leading-7 md:text-xl lg:text-base">
